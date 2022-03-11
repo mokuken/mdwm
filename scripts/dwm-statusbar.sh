@@ -1,21 +1,5 @@
 #!/bin/bash
 
-# ~/bin/dwm-statusbar
-# Adapted from w0ng status bar: https://github.com/w0ng/bin
-# Adapted from jasonwryan status bar: https://bitbucket.org/jasonwryan/shiv/src/1ad5950c3108a4e5a9dcb78888a1ccfeb9252b45/Scripts/dwm-status?at=default
-
-# Colour codes from dwm/config.h
-#color0="\x01" # normal  
-#color6="\x02" # green 
-#color7="\x03" # blue 
-#color1="\x01" # white-ish fg \x01
-
-
-#---separator                              
-#sp="$(echo -ne "${color0} ")" 
-#sp1="$(echo -ne "${color0} | ")" 
-#sp2="$(echo -ne "${color0}| ")"
-#sp3="$(echo -ne "${color0}|")"
 
 print_song_info() {
   track="$(mpc current)"
@@ -119,9 +103,6 @@ print_cpu_used() {
 }
  
   # Pipe to status bar, not indented due to printing extra spaces/tabs
-  #xsetroot -name "$(print_power)${sp1}$(print_wifiqual)$(print_hddfree)${sp1}$(print_email_count)$(print_pacup)$(print_aurups)$(print_aurphans)${sp2}$(print_volume)${sp2}$(print_datetime)"
-  #xsetroot -name "$(print_cpu_used)$(print_cputemp)$(print_wifiqual)$(print_hddfree)$(print_volume)$(print_power)$(print_datetime)"
-  #xsetroot -name "$(print_song_info)$(print_power)${sp1}$(print_wifiqual)$(print_hddfree)${sp2}$(print_volume)${sp2}$(print_datetime)"
   xsetroot -name "|$(print_brightness)|$(print_volume)|$(print_power)|$(print_date)|$(print_time);$(print_wifiqual)|$(print_ethernet)|  $UPTIME |;|$(print_cpu_used)|$(print_cputemp)|  $MEM |$(print_hddfree)"
 
   # reset old rates
