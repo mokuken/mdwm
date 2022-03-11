@@ -1,5 +1,5 @@
 
-_An oneline userChrome.css theme for Firefox, which aims to keep the Proton experience._
+# MOKU'S DYNAMIC WINDOW MANAGER
 
 ![extra bar screenshot](bars.png)
 
