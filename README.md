@@ -32,5 +32,4 @@
 - QUIT DWM SHIFT + ALT + Q
 - CHANGE LAYOUT ALT + D OR ALT + I
 
-```
 
