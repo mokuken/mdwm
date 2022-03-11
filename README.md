@@ -25,11 +25,11 @@
 ## KEYBINDINGS
 
 - EVERYTHING IS SET TO DEFAULT
-- OPEN A POWERMENU SHIFT + ALT + S
-- OPEN DMENU CTRL + G
-- OPEN A TERMINAL SHIFT + ALT + ENTER
-- CLOSE A WINDOW SHIFT + ALT + C
-- QUIT DWM SHIFT + ALT + Q
-- CHANGE LAYOUT ALT + D OR ALT + I
+- Open powermenu SHIFT + ALT + S
+- Open DMENU CTRL + G
+- Open a terminal SHIFT + ALT + ENTER
+- Close a window SHIFT + ALT + C
+- Quit DWM SHIFT + ALT + Q
+- Change layout ALT + D or ALT + I
 
 
