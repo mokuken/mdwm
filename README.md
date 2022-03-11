@@ -1,14 +1,13 @@
 
 _An oneline userChrome.css theme for Firefox, which aims to keep the Proton experience._
 
+![extra bar screenshot](bars.png)
+
 ## DWM PATCHES APPLIED
 
 - **BORDER BAR**: Changeable size top border bar.
-![border bar screenshot](borderbar.png)
 - **EXTRA BAR**: This patch will enable an extra status bar in dwm.
-![extra bar screenshot](bars.png)
 - **3 STATUS BAR**: 3 statuses, 1 in top right, 2 in left/right bottom
-![3 status bar screenshot](3status.png)
 - **NO TITLE**: Doesn't show the title.
 - **SWALLOW**: This patch adds "window swallowing" to dwm as known from Plan 9's windowing system rio.
 - **VANITY GAPS**: gaps between windows and the screen edge in a flexible manner.
