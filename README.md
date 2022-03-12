@@ -19,7 +19,7 @@
 2. go inside the repository dwm `cd MDWM/dwm`
 3. and install it `sudo make clean install` or `sudo make install`
 4. go inside repository dmenu `cd MDWM/dmenu`
-5. nd install it `sudo make clean install` or `sudo make install`
+5. and install it `sudo make clean install` or `sudo make install`
 6. Restart dwm
 7. Enjoy your new MDWM!!
 
