@@ -40,8 +40,6 @@
 ## KEYBINDINGS
 
 - EVERYTHING IS SET TO DEFAULT
-- Open powermenu SHIFT + ALT + S
-- Open DMENU CTRL + G
 - Open a terminal SHIFT + ALT + ENTER
 - Close a window SHIFT + ALT + C
 - Quit DWM SHIFT + ALT + Q
