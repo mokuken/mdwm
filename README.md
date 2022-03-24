@@ -20,8 +20,10 @@
 3. and install it `sudo make clean install` or `sudo make install`
 4. go inside repository dmenu `cd MDWM/dmenu`
 5. and install it `sudo make clean install` or `sudo make install`
-6. Restart dwm
-7. Enjoy your new MDWM!!
+7. go inside of folder MDWM/script `cd MDWM/script`
+8. Put the status script on your xinitrc `/home/username/mdwm/scripts/dwm-statusbar.sh &` 
+9. restart dwm
+10. Enjoy your new MDWM!!
 
 
 ## KEYBINDINGS
