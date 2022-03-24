@@ -18,7 +18,7 @@ Awesome Fonts - for icons
 
 ## DEPENDENCIES
 1. ifconfig - Ifconfig is used to configure the kernel-resident network interfaces.
-2 .iwconfig - Iwconfig  is similar to ifconfig(8), but is dedicated to the wireless interfaces.
+2. iwconfig - Iwconfig  is similar to ifconfig(8), but is dedicated to the wireless interfaces.
 3. acpi - Shows information from the /proc filesystem, such as battery status or thermal information.
 4. awk - gawk is a pattern scanning and processing language.
 5. grep - Search for PATTERNS in each FILE.
