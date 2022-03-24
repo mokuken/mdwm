@@ -12,18 +12,25 @@
 - **SWALLOW**: This patch adds "window swallowing" to dwm as known from Plan 9's windowing system rio.
 - **VANITY GAPS**: gaps between windows and the screen edge in a flexible manner.
 
+## DEPENDENCIES
+ifconfig - Ifconfig is used to configure the kernel-resident network interfaces.
+iwconfig - Iwconfig  is similar to ifconfig(8), but is dedicated to the wireless interfaces.
+acpi - Shows information from the /proc filesystem, such as battery status or thermal information.
+awk - gawk is a pattern scanning and processing language.
+grep - Search for PATTERNS in each FILE.
+cut - Print selected parts of lines from each FILE to standard output.
+cat - Concatenate FILE(s) to standard output.
+df - Show information about the file system on which each FILE resides, or all file systems by default.
 
 ## Installation
 
 1. go in the main user directory, and type `git clone https://github.com/MokuKen/mdwm.git`. then press ENTER
 2. go inside the folder of dwm `cd mdwm/dwm`
 3. and install it `sudo make clean install` or `sudo make install`
-4. go inside the folder of dmenu `cd mdwm/dmenu`
-5. and install it `sudo make clean install` or `sudo make install`
-7. go inside the folder of MDWM/script `cd mdwm/script`
-8. Put the status script on your xinitrc `/home/username/mdwm/scripts/dwm-statusbar.sh &` 
-9. restart dwm
-10. Enjoy your new MDWM!!
+4. go inside the folder of MDWM/script `cd mdwm/script`
+5. Put the status script on your xinitrc `/home/username/mdwm/scripts/dwm-statusbar.sh &` 
+6. restart dwm
+7. Enjoy your new MDWM!!
 
 
 ## KEYBINDINGS
