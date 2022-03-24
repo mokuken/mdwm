@@ -13,8 +13,8 @@
 - **VANITY GAPS**: gaps between windows and the screen edge in a flexible manner.
 
 ## FONTS
-Source Code Pro - for fonts
-Awesome Fonts - for icons
+1. Source Code Pro - for fonts
+2. Awesome Fonts - for icons
 
 ## DEPENDENCIES
 1. ifconfig - Ifconfig is used to configure the kernel-resident network interfaces.
