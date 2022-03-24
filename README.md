@@ -12,15 +12,19 @@
 - **SWALLOW**: This patch adds "window swallowing" to dwm as known from Plan 9's windowing system rio.
 - **VANITY GAPS**: gaps between windows and the screen edge in a flexible manner.
 
+## FONTS
+Source Code Pro - for fonts
+Awesome Fonts - for icons
+
 ## DEPENDENCIES
-ifconfig - Ifconfig is used to configure the kernel-resident network interfaces.
-iwconfig - Iwconfig  is similar to ifconfig(8), but is dedicated to the wireless interfaces.
-acpi - Shows information from the /proc filesystem, such as battery status or thermal information.
-awk - gawk is a pattern scanning and processing language.
-grep - Search for PATTERNS in each FILE.
-cut - Print selected parts of lines from each FILE to standard output.
-cat - Concatenate FILE(s) to standard output.
-df - Show information about the file system on which each FILE resides, or all file systems by default.
+1. ifconfig - Ifconfig is used to configure the kernel-resident network interfaces.
+2 .iwconfig - Iwconfig  is similar to ifconfig(8), but is dedicated to the wireless interfaces.
+3. acpi - Shows information from the /proc filesystem, such as battery status or thermal information.
+4. awk - gawk is a pattern scanning and processing language.
+5. grep - Search for PATTERNS in each FILE.
+6. cut - Print selected parts of lines from each FILE to standard output.
+7. cat - Concatenate FILE(s) to standard output.
+8. df - Show information about the file system on which each FILE resides, or all file systems by default.
 
 ## Installation
 
