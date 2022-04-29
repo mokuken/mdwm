@@ -16,10 +16,10 @@ static const char statussep         = ';';      /* separator between statuses */
 static const char *fonts[]          = { "SourceCodePro-Bold:size=12" };
 static const char dmenufont[]       = "monospace:size=10";
 static const char col_gray1[]       = "#141414";
-static const char col_gray2[]       = "#808080";
+static const char col_gray2[]       = "#303030";
 static const char col_gray3[]       = "#FFFFFF";
-static const char col_gray4[]       = "#000000";
-static const char col_cyan[]        = "#FFFFFF";
+static const char col_gray4[]       = "#FFFFFF";
+static const char col_cyan[]        = "#454545";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
