@@ -70,7 +70,7 @@ static const struct arg args[] = {
 	{ datetime, "  %s ",		"%F" },
 	{ datetime, "  %s    ",           "%I:%M" },
 	{ separator, ";", NULL },
-	{ wifi_essid, "  %s ", "wlo1" },
+	{ wifi_essid, "  %s", "wlo1" },
 	{ run_command, "  %s", "ifconfig wlo1 | grep 'TX packets' | awk {'print $6 $7'}" },
 	{ run_command, "  %s ", "ifconfig wlo1 | grep 'RX packets' | awk {'print $6 $7'}" },
 	{ separator, ";", NULL },
