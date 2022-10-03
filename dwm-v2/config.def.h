@@ -27,7 +27,7 @@ static const char *colors[][3]      = {
 };
 
 /* tagging */
-static const char *tags[] = { "  ", "", "", "", "", "", "" };
+static const char *tags[] = { " TERMINAL", " MEDIA", " BROWSER", " OTHER" };
 
 static const unsigned int ulinepad	= 5;	/* horizontal padding between the underline and tag */
 static const unsigned int ulinestroke	= 2;	/* thickness / height of the underline */
@@ -41,7 +41,7 @@ static const Rule rules[] = {
 	 */
 	/* class           instance    title       tags mask   iscentered  isfloating  isterminal  noswallow     monitor */
 	{ "Gimp",            NULL,     NULL,           0,       	0,	       1,          0,           0,        -1 },
-	{ "Firefox",         NULL,     NULL,           1 << 8,      0,	       0,          0,          -1,        -1 },
+	{ "firefox",         NULL,     NULL,           1 << 2,      0,	       0,          0,          -1,        -1 },
 	{ "st-256color",     NULL,     NULL,           0,           0,		   0,          1,           0,        -1 },
 	{ NULL,              NULL,  "Event Tester",    0,           0, 	       0,          0,           1,        -1 }, /* xev */
 };
@@ -54,9 +54,9 @@ static const int lockfullscreen = 1; /* 1 will force focus on the fullscreen win
 
 static const Layout layouts[] = {
 	/* symbol     arrange function */
-	{ "TILING MODE",      tile },    /* first entry is default */
-	{ "FLOATING MODE",      NULL },    /* no layout function means floating behavior */
-	{ "MONOCLE MODE",      monocle },
+	{ " TILING MODE",      tile },    /* first entry is default */
+	{ " FLOATING MODE",      NULL },    /* no layout function means floating behavior */
+	{ " MONOCLE MODE",      monocle },
 };
 
 /* key definitions */
@@ -74,8 +74,8 @@ static const Layout layouts[] = {
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_cyan, "-sf", col_gray4, NULL };
 static const char *termcmd[]  = { "st", NULL };
-static const char *powermenu[] = { "/home/mokuken/scripts/powermenu.sh", NULL };
-static const char *dmenu[] = { "/home/mokuken/scripts/dmenu.sh", NULL };
+static const char *powermenu[] = { "/home/mokuken/scripts/powermenu/powermenu.sh", NULL };
+static const char *dmenu[] = { "dmenu_run", NULL };
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
