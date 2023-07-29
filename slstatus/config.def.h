@@ -65,14 +65,14 @@ static const char unknown_str[] = "n/a";
  */
 static const struct arg args[] = {
 	/* function format          argument */
-	{ run_command, "  %s ", "amixer sget Master | awk -F\"[][]\" '/%/ { print $2 }' | head -n1" },
+	{ run_command, "  %s%% ", "wpctl get-volume @DEFAULT_AUDIO_SINK@ | sed 's/Volume: 0\.//'" },
 	{ battery_perc, "  %s%% ", "BAT0" },
 	{ datetime, "  %s ",		"%F" },
 	{ datetime, "  %s    ",           "%I:%M" },
 	{ separator, ";", NULL },
 	{ wifi_essid, "  %s", "wlo1" },
-	{ run_command, "  %s", "ifconfig wlan0 | grep 'TX packets' | awk {'print $6 $7'}" },
-	{ run_command, "  %s ", "ifconfig wlan0 | grep 'RX packets' | awk {'print $6 $7'}" },
+	{ run_command, "  %s", "ifconfig wlo1 | grep 'TX packets' | awk {'print $6 $7'}" },
+	{ run_command, "  %s ", "ifconfig wlo1 | grep 'RX packets' | awk {'print $6 $7'}" },
 	{ separator, ";", NULL },
 	{ cpu_perc, "   %s%% ", NULL },
 	{ ram_used, "  %s ", NULL },
